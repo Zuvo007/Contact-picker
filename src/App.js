@@ -12,7 +12,7 @@ function App() {
       getContacts();
     } else {
       alert(
-        "Contact list API not supported!. Only for android mobile chrome and chrome version > 80"
+        "Contact list API not supported!. Only for android mobile chrome and chrome version greater than 80"
       );
     }
   }
