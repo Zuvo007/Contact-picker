@@ -23,6 +23,10 @@ function App() {
     try {
       const contacts = await navigator.contacts.select(props, opts);
       alert(JSON.stringify(contacts));
+      if (contacts && contacts[0]) {
+        setName(contacts[0].name[0]);
+        setPhone(contacts[0].tel[0]);
+      }
     } catch (err) {
       alert(err);
     }
