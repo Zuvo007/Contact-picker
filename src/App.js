@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <div>
         <div>Name: {name} </div>
-        <div>Phone: {phone} </div>
+        <div>Phone No: {phone} </div>
         <button className="mt-10" onClick={() => openContactPicker()}>
           Select contacts
         </button>
